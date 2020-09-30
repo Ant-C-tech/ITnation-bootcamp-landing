@@ -1,0 +1,138 @@
+.facts {
+    margin-bottom: 190px;
+
+    &__container {
+        position: relative;
+        margin: 0 80px;
+    }
+
+    &__title {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 35px;
+        color: #ffffff;
+    }
+}
+
+.slide {
+    &__img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    &__text {
+        font-size: 27px;
+        line-height: 1.2;
+        color: #ffffff;
+        text-align: center;
+    }
+}
+
+.swiper {
+    &-button-next {
+        color: #B78A3F;
+        right: -60px;
+        outline: 0;
+        outline-offset: 0;
+    }
+
+
+    &-button-prev {
+        color: #B78A3F;
+        left: -60px;
+        outline: 0;
+        outline-offset: 0;
+    }
+
+    &-pagination-unique {
+        position: absolute;
+        bottom: -60px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    &-pagination-bullet {
+        width: 24px;
+        height: 24px;
+    }
+
+    &-pagination-bullet-active {
+        background: #B78A3F
+    }
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+    opacity: 0;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 20px;
+    outline: 0;
+    outline-offset: 0;
+}
+
+
+
+
+
+@media screen and (max-width:925px) {
+
+    .facts {
+        margin-bottom: 80px;
+    }
+
+    .slide__text {
+        font-size: 22px;
+    }
+
+    .swiper {
+        &-pagination-unique {
+            bottom: -40px;
+        }
+
+        &-pagination-bullet {
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .facts {
+
+        &__container {
+            margin: 0 40px;
+        }
+    }
+
+    .slide__text {
+        font-size: 17px;
+    }
+
+.swiper{
+    &-button-next {
+        width: 32px;
+        right: -30px;
+    }
+
+    &-button-prev {
+        width: 32px;
+        left: -30px;
+    }
+
+    &-pagination-bullet {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+    .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 5px;
+    }
+}

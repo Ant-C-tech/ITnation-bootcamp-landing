@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src:url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Cyr Light';
+  src: url('fonts/HelveticaNeueCyr-Light.eot');
+  src: url('fonts/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
+  url('fonts/HelveticaNeueCyr-Light.woff') format('woff'),
+  url('fonts/HelveticaNeueCyr-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+*{
+  box-sizing: border-box;
+}
+
+ /* SCROLLBAR STYLES */
+
+ ::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  // margin          : 10px;
+  background-color: #737373;
+  border-radius   : 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius   : 2px;
+  border: 1px solid #B78A3F;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  max-width: 1440px;
+
+  padding: 0;
+	border: 0;
+	font-size: 100%;
+  vertical-align: baseline;
+  
+  -webkit-font-smoothing: antialiased;
+}
+
+#root{
+  background: #737373;
+}

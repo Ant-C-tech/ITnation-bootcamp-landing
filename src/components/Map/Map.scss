@@ -1,0 +1,98 @@
+.map {
+    margin-bottom: 100px;
+
+    &__wrapper {
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    &__mapboxAirQuality {
+        min-height: 560px;
+        z-index: 1;
+    }
+
+    &__controlElement{
+        width: 100%;
+    }
+
+    &__elementWrapper {
+        position: absolute;
+        z-index: 10;
+    }
+
+    &__elementWrapper:nth-child(2) {
+        bottom: 30px;
+        right: 30px;
+    }
+
+    &__elementWrapper:nth-child(3) {
+        top: 30px;
+        right: 30px;
+    }
+
+    &__elementWrapper:nth-child(4) {
+        left: 30px;
+        bottom: 30px;
+    }
+
+    &__title{
+        font-size: 35px;
+        line-height: 1.3;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    &__tip{
+        font-size: 23px;
+        line-height: 1.3;
+        color: #ffffff;
+        text-align: left;
+    }
+}
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px ;
+    }
+
+@media screen and (max-width:925px) {
+    .map {
+        margin-bottom: 70px;
+
+        &__mapboxAirQuality {
+            min-height: 660px;
+        }
+
+        &__elementWrapper:nth-child(2) {
+            width: 105px;
+            bottom: 15px;
+            right: 15px;
+        }
+    
+        &__elementWrapper:nth-child(3) {
+            width: 45px;
+            top: 15px;
+            right: 15px;
+        }
+    
+        &__elementWrapper:nth-child(4) {
+            width: 38px;
+            left: 15px;
+            bottom: 15px;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .map {
+        &__title{
+            font-size: 27px;
+            margin-bottom: 25px;
+        }
+    
+        &__tip{
+            font-size: 17px;
+        }
+    }
+}
