@@ -90,12 +90,12 @@
         font-family: 'Helvetica Neue Cyr Light';
         color: #ffffff;
         font-size: 14px;
-        margin-bottom: 15px;
     }
 
     &__siteLinks {
         display: flex;
         flex-direction: column;
+        margin: 15px auto 0;
     }
 
     &__link {
@@ -120,7 +120,8 @@
     color: #EEE851;
 
     &:hover {
-        transform: scale(1.02);
+        transform: scale(1.1);
+        color: #B78A3F;
     }
 }
 
@@ -166,12 +167,27 @@
         }
 
         &__siteLinks {
-            margin: 0 auto;
+            margin: 15px auto 0;
             align-items: center;
         }
 
         &__link {
             text-align: center;
+
+            &:hover {
+                color: #ffffff;
+                transform: scale(1);
+            }
+        }
+
+        
+    }
+
+    .author__link{
+    
+        &:hover {
+            transform: scale(1);
+            color: #EEE851;
         }
     }
 }

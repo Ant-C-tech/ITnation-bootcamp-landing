@@ -26,6 +26,7 @@ const Footer = ({links, logos, author, design}) => {
                     </div>
                 </div>
                 <p className="footer__rights">2020, Все права защищены</p>
+                <div className="footer__rights">Icons made by <a className="footer__link" href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a className="footer__link" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
                 <div className="footer__siteLinks">
                   <a href="#agreed" className="footer__link">Согласие на обработку персональных данных</a>
                   <a href="#privacy" className="footer__link">Политика конфиденциальности</a>
