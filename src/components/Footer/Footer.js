@@ -22,7 +22,7 @@ const Footer = ({links, logos, author, design}) => {
                 <div className="footer__flexWrapper">
                     <nav className="footer__anchorLinks">{footerNavCollection}</nav>
                     <div className="footer__authors">
-                        <p className="footer__authorsText">Сайт был разработан <span className="footer__name">{author}</span> в учебных целях, в рамках образовательной программы IT nation. Дизайн сайта создан <span className="footer__name">{design}</span>.</p>
+                        <p className="footer__authorsText">Сайт был разработан <span className="footer__name"> <a href="https://github.com/Ant-C-tech?tab=repositories" className="author__link">{author}</a></span> в учебных целях, в рамках образовательной программы IT nation. Дизайн сайта создан <span className="footer__name">{design}</span>.</p>
                     </div>
                 </div>
                 <p className="footer__rights">2020, Все права защищены</p>

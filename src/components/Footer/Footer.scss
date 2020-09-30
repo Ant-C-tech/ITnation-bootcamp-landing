@@ -114,6 +114,16 @@
 
 }
 
+.author__link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #EEE851;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+}
+
 @media screen and (max-width:925px) {
     .footer {
         border-top: 2px solid #ffffff;
