@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d6b95727cbed0cdc29c63210da1d56f",
+    "revision": "4e1475fe113f9d41731cc490f5fae677",
     "url": "/ITnation-bootcamp-landing/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ITnation-bootcamp-landing/static/css/2.712beb25.chunk.css"
   },
   {
-    "revision": "fa2a570b6cd13f3bdb62",
-    "url": "/ITnation-bootcamp-landing/static/css/main.7cb6323e.chunk.css"
+    "revision": "edb231bc2fbc494a43fd",
+    "url": "/ITnation-bootcamp-landing/static/css/main.f62ef944.chunk.css"
   },
   {
     "revision": "ece8e29c95efdcbb94e0",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ITnation-bootcamp-landing/static/js/2.54c15da6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa2a570b6cd13f3bdb62",
-    "url": "/ITnation-bootcamp-landing/static/js/main.fbd501a6.chunk.js"
+    "revision": "edb231bc2fbc494a43fd",
+    "url": "/ITnation-bootcamp-landing/static/js/main.d37076b3.chunk.js"
   },
   {
     "revision": "1aa01475d9bc7a7daf07",
