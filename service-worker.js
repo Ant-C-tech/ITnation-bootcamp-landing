@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ITnation-bootcamp-landing/precache-manifest.99d45b2fce75c4559112396d1480fb09.js"
+  "/ITnation-bootcamp-landing/precache-manifest.88c890321238d22cddb121a57da8713e.js"
 );
 
 self.addEventListener('message', (event) => {
